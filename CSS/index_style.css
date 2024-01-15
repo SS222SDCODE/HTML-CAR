@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "jost";
+}
+h2{
+    font-size: 64px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 2px 5px #d34646;
+}
+p{
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 5px #d34646;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+    ),
+    url(../Images/hookah\ 1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+
+}
+.section-2{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+    ),
+    url(../Images/sunglass.jpg);
+}
+.section-3{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+    ),
+    url(../Images/man-1283231_1280.jpg);
+    background-attachment: fixed;
+}
+.section-4{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+    ),
+    url(../Images/stock-photo-handsome-tattooed-man-is-relaxing-on-the-armchair-and-is-smoking-hookah.jpeg)
+
+}
